@@ -4,12 +4,12 @@ describe('calcfunction', function () {
     
 
     beforeEach(function (){
-        let calculator = new Calculator();
+        calculator = new Calculator(10, 5);
         
 })
 
     it('adds x and y', function (){
-        expect(calculator.addNumbers(10,5)).toBe(15);
+        expect(calculator.addNumbers(90,5)).toBe(95);
 
     })
 
